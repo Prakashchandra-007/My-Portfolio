@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Form Assignments</title>
+        <!--internal css-->
+         <style>
+             body {
+                max-width: 450px;
+                margin: 8px auto;
+             }
+             input{
+                 margin:8px;
+             }
+             form{
+                font-family: sans-serif;
+                font-weight:bold;
+                letter-spacing:1px;
+                
+             }
+             
+             label{
+                 margin-right:2px;
+             }
+            
+            div h1{
+                color: green;
+                font-weight:bold;
+                text-align: center;
+                
+            }
+            div{
+                border: 1.5px solid;
+                padding: 5px 5px 5px 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div > 
+            <h1> Fill The Form</h1>
+        <form method="post" action="">
+            <!--input type text-->
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" value="">
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" value="">
+            <br>
+            <!--input type date-->
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" value="">
+            <br>
+           <!--input type radio-->
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender"  value="male">Male</input>
+            <input type="radio" name="gender" value="female">Female</input>
+            <br>
+           
+            <!--select element-->
+            <label for="country">Country</label> 
+            <select name="country" >
+                <option value="India" selected>India</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+                <option value="Nepal">Nepal</option>
+            </select>
+            <br>
+            <!--input type password-->
+            <label for="password">Password:</label>
+            <input type="password" name="password" value="">
+            <br>
+            <label for="password1"> Re-enter Password:</label>
+            <input type="password" name="password1" value="">
+            <br/>
+            <label for="summary">About Yourselves:</label>
+            <br/>
+            <textarea name="summary" rows="5" cols="12"></textarea>
+           <br>
+            <!--input type checkbox-->
+            <label for="term">Term and Condition:</label> 
+            <input type="checkbox" name="term" >
+            <br>
+            <input type="submit" name="submit">
+
+        </form>
+    </div>
+    </body>
+</html>
