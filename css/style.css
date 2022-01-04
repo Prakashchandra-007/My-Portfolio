@@ -5,15 +5,16 @@
 }
 /* custom properties  */
 :root {
+    
     --ff-primary: "Source Sans Pro", sans-serif; 
-    --ff-secondary: "Source Code Pro", monospace;
+    --ff-secondary: "Space Mono", monospace;
 
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: #ffffff;
+    --clr-dark: #252525be;
+    --clr-accent: #90ffcf;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -141,7 +142,9 @@ header {
     padding:1e,;
 }
 .logo{
-    max-width:100px;
+    max-width:150px;
+    margin-top:3px;
+    margin-left: 20px;
 }
 
 .nav{
